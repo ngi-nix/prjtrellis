@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "database": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1625050385,
+        "narHash": "sha256-eDq2wU2pnfK9bOkEVZ07NQPv02Dc6iB+p5GTtVBiyQA=",
+        "owner": "YosysHQ",
+        "repo": "prjtrellis-db",
+        "rev": "fdf4bf275a7402654bc643db537173e2fbc86103",
+        "type": "github"
+      },
+      "original": {
+        "owner": "YosysHQ",
+        "repo": "prjtrellis-db",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1628776130,
+        "narHash": "sha256-EyzdilgzoO8YCgck1lkOF1Bp+QVEazJBtuG5GkVY6xg=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "ad6e733d633802620b5eec9be91e837973eac18a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-21.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "database": "database",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
